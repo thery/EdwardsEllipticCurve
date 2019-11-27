@@ -195,7 +195,7 @@ have /Kmult_integral[H|H] : r = 0.
   ring_simplify [H1 H2] in H3.
   set u := _ * c ^ 2 in H3.
   have: u = u - 1 + 1 by ring.
-  rewrite -{1}H3 => H4; ring_simplify in H4; rewrite /u in H4.
+  rewrite -[in u - _]H3 => H4; ring_simplify in H4; rewrite /u in H4.
   ring_simplify[H1 H2].
   ring_simplify[H4].
   ring_simplify[H1 H2].
@@ -261,18 +261,18 @@ rewrite /add /on /= /dx /dy /= => H1 H2 H3 H4 H5 H6 H7 H8 H9 H10 H11.
 congr (_,_).
   field[H1 H2 H3]; repeat split => //.
     contradict H8; field_simplify; last by split.
-    rewrite [0 / _]Kdiv_0_l; apply: Kdiv_eq_0_compat_r.
+    apply: Kdiv_eq_0_compat_r.
     by rewrite -H8; ring.
   contradict H10; field_simplify; last by split.
-  rewrite [0 / _]Kdiv_0_l; apply: Kdiv_eq_0_compat_r.
+  apply: Kdiv_eq_0_compat_r.
   by rewrite -H10; ring.
 Time field[H1 H2 H3]=> //.
 repeat split => //.
   contradict H9; field_simplify; last by split.
-  rewrite [0 / _]Kdiv_0_l; apply: Kdiv_eq_0_compat_r.
+  apply: Kdiv_eq_0_compat_r.
   by rewrite -H9; ring.
 contradict H11; field_simplify; last by split; auto.
-rewrite [0 / _]Kdiv_0_l; apply: Kdiv_eq_0_compat_r.
+apply: Kdiv_eq_0_compat_r.
 rewrite -H11; ring.
 Time Qed.
 
