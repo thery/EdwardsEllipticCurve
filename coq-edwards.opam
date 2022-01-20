@@ -5,9 +5,9 @@ opam-version: "2.0"
 maintainer: "thery@sophia.inria.fr"
 version: "dev"
 
-homepage: "https://github.com/thery/EdwardsEllipticCurves"
-dev-repo: "git+https://github.com/thery/EdwardsEllipticCurves.git"
-bug-reports: "https://github.com/thery/EdwardsEllipticCurves/issues"
+homepage: "https://github.com/thery/EdwardsEllipticCurve"
+dev-repo: "git+https://github.com/thery/EdwardsEllipticCurve.git"
+bug-reports: "https://github.com/thery/EdwardsEllipticCurve/issues"
 license: "MIT"
 
 synopsis: "Edwards Curves"

@@ -1,6 +1,6 @@
 ---
-fullname: EdwardsEllipticCurves
-shortname: EdwardsEllipticCurves
+fullname: EdwardsEllipticCurve
+shortname: EdwardsEllipticCurve
 organization: thery
 opam_name: coq-edwards
 community: false
