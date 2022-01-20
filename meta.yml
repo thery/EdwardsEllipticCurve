@@ -1,7 +1,8 @@
 ---
-fullname: Edwards
-shortname: edwards
+fullname: EdwardsEllipticCurves
+shortname: EdwardsEllipticCurves
 organization: thery
+opam_name: coq-edwards
 community: false
 dune: false
 action: true
