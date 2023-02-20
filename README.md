@@ -28,7 +28,7 @@ Following The Group Law for Edwards Curves Thomas C. Hales
 
 ## Building and installation instructions
 
-To instead build and install manually, do:
+To build and install manually, do:
 
 ``` shell
 git clone https://github.com/thery/EdwardsEllipticCurve.git
