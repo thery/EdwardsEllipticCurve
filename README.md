@@ -22,13 +22,21 @@ Following The Group Law for Edwards Curves Thomas C. Hales
 - License: [MIT License](LICENSE)
 - Compatible Coq versions: 8.19 or later
 - Additional dependencies:
-  - [MathComp ssreflect 2.2 or later](https://math-comp.github.io)
+  - [MathComp ssreflect 2.3 or later](https://math-comp.github.io)
 - Coq namespace: `edwards`
 - Related publication(s): none
 
 ## Building and installation instructions
 
-To build and install manually, do:
+The easiest way to install the latest released version of EdwardsEllipticCurve
+is via [OPAM](https://opam.ocaml.org/doc/Install.html):
+
+```shell
+opam repo add coq-released https://coq.inria.fr/opam/released
+opam install coq-edwards
+```
+
+To instead build and install manually, do:
 
 ``` shell
 git clone https://github.com/thery/EdwardsEllipticCurve.git
