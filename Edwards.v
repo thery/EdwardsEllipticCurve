@@ -1,6 +1,6 @@
 From Stdlib Require Import Reals.
 From Stdlib Require Import Field Psatz.
-From mathcomp Require Import all_ssreflect.
+From mathcomp Require Import all_boot.
 
 Section Edwards.
 
