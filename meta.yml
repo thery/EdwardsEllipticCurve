@@ -26,19 +26,19 @@ license:
   fullname: MIT License
   identifier: MIT
 
-supported_coq_versions:
-  text: '9.0 or later'
-  opam: '{(>= "9.0")}'
+supported_rocq_versions:
+  text: '9.1 or later'
+  opam: '{(>= "9.1")}'
 
 dependencies:
 - opam:
-    name: coq-mathcomp-ssreflect
+    name: rocq-mathcomp-ssreflect
     version: '{(>= "2.5.0")}'
   description: |-
     [MathComp ssreflect 2.5 or later](https://math-comp.github.io)
 
-tested_coq_opam_versions:
-- version: '2.5.0-rocq-prover-9.0'
+tested_rocq_opam_versions:
+- version: '2.5.0-rocq-prover-9.1'
   repo: 'mathcomp/mathcomp'
 
 namespace: edwards

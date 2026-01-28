@@ -20,7 +20,6 @@ Following The Group Law for Edwards Curves Thomas C. Hales
 - Author(s):
   - Laurent Théry
 - License: [MIT License](LICENSE)
-- Compatible Rocq/Coq versions: 9.0 or later
 - Additional dependencies:
   - [MathComp ssreflect 2.5 or later](https://math-comp.github.io)
 - Rocq/Coq namespace: `edwards`
